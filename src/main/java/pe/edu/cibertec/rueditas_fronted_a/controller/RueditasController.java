@@ -46,7 +46,7 @@ public class RueditasController {
 
             }catch (Exception e){
 
-                RueditasModel rueditasModel = new RueditasModel("99", "Error : "+e.getMessage(), "", "", "", "", "");
+                RueditasModel rueditasModel = new RueditasModel("99", "Error :Ocurrio  Problemas en el Backend  ", "", "", "", "", "");
                 model.addAttribute("RueditasModel", rueditasModel);
 
                 return "inicio";
